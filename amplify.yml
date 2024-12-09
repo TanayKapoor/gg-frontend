@@ -11,7 +11,7 @@ frontend:
       commands:
         - ng build --configuration production --aot
   artifacts:
-    baseDirectory: gg-frontend
+    baseDirectory: dist/
     files:
       - '**/*'
   cache:
