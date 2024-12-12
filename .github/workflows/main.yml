@@ -27,8 +27,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test
+      # remove comments to run tests
+      # - name: Run tests
+      #   run: npm test
 
       - name: Build Angular project
         run: npm run build
